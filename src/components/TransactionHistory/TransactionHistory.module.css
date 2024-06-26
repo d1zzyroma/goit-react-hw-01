@@ -1,0 +1,29 @@
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.tableBody .tableLine:nth-child(even) {
+    background-color: #f9f9f9; /* Темніший фон для парних рядків */
+}
+
+.thHead{
+    background-color: gray;
+}
