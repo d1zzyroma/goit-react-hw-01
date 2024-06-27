@@ -21,7 +21,7 @@ th, td {
 }
 
 .tableBody .tableLine:nth-child(even) {
-    background-color: #f9f9f9; /* Темніший фон для парних рядків */
+    background-color: #f9f9f9; 
 }
 
 .thHead{
